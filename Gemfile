@@ -5,6 +5,9 @@ source 'https://rubygems.org'
 gem 'rails', '4.2.5'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.6'
+
+gem 'bcrypt','~>3.1.7'
+
 gem 'sass-rails', '~> 5.0'
 
 # Use Uglifier as compressor for JavaScript assets
@@ -36,6 +39,7 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
 end
+
 
 group :development do
   
