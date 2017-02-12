@@ -6,7 +6,7 @@ gem 'rails', '4.2.5'
 # Use SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.6'
 
-gem 'bcrypt','~>3.1.7'
+gem 'bcrypt',         '3.1.11'
 
 gem 'sass-rails', '~> 5.0'
 
