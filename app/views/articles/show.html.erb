@@ -1,9 +1,10 @@
 
 
-
+  <% if @article.user %>
+  <% @user = @article.user %>
+  <%= (render 'users/blurb')%>
+  <%end%>
 <h2 align="center">Title:&nbsp <%= @article.title %></h2>
-
-
 <div class="well col-xs-8 col-xs-offset-2">
   <h4 class="center description"><strong>Description:</strong></h4>
   <hr>
